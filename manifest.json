@@ -1,1 +1,26 @@
-
+{
+  "name": "Funnel Compare by Misha",
+  "description": "Dual funnel with comparison (A vs B)",
+  "version": "1.0",
+  "data": {
+    "dimensions": [
+      { "id": "step", "name": "Step" },
+      { "id": "segment", "name": "Segment" }
+    ],
+    "metrics": [
+      { "id": "value", "name": "Value" }
+    ]
+  },
+  "style": {
+    "colorA": {
+      "type": "color",
+      "label": "Color A",
+      "defaultValue": "#4285F4"
+    },
+    "colorB": {
+      "type": "color",
+      "label": "Color B",
+      "defaultValue": "#FF7043"
+    }
+  }
+}
